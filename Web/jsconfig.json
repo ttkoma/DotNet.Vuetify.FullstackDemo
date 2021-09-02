@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./*"],
+      "@/*": ["./*"],
+      "~~/*": ["./*"],
+      "@@/*": ["./*"]
+    },
+    "types": [
+      "vue",
+      "@nuxtjs/types"
+    ]
+  },
+  "exclude": ["node_modules", ".nuxt", "dist"]
+}
